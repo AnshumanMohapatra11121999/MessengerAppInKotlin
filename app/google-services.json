@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "989998449594",
+    "project_id": "hificonvo",
+    "storage_bucket": "hificonvo.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:989998449594:android:0fe9ff0ea536f1da929383",
+        "android_client_info": {
+          "package_name": "com.example.hificonvo"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "989998449594-5alv1ukq3ukbori53eanqh0brnq1hte3.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAuKQyNrRhQz2qKa4DW7hdDMOk3odSKJMA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "989998449594-5alv1ukq3ukbori53eanqh0brnq1hte3.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
