@@ -41,44 +41,28 @@ class ChatActivity : AppCompatActivity() {
 
         chatRecyclerView.layoutManager=LinearLayoutManager(this)
         chatRecyclerView.adapter =messageAdapter
-
-
         //Adding Data To the Recycler View
         mDbRef.child("chats").child(senderRoom!!).child("messages")
             .addValueEventListener(object: ValueEventListener{
                 override fun onDataChange(snapshot: DataSnapshot) {
                     messageList.clear()
                    for(postSnapshot in snapshot.children){
-
                        val message = postSnapshot.getValue(Message::class.java)
                        messageList.add(message!!)
-
                    }
                     messageAdapter.notifyDataSetChanged()
                 }
-
                 override fun onCancelled(error: DatabaseError) {
-
                 }
-
             })
         //Adding the Message to the DataBase
         sendButton.setOnClickListener{
             val message=messageBox.text.toString()
             val messageObject = Message(message,senderUid)
-
-
             mDbRef.child("chats").child(senderRoom!!).child("messages").push()
                 .setValue(messageObject).addOnSuccessListener {
                     mDbRef.child("chats").child(receiverRoom!!).child("messages").push()
                         .setValue(messageObject)
-
                 }
             messageBox.setText("")
-
-        }
-
-
-
-    }
-}
+        } } }

@@ -1,4 +1,3 @@
-<?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
@@ -9,7 +8,7 @@
         <entry key="..\:/Users/DELL/AndroidStudioProjects/HIFICONVO/app/src/main/res/drawable/ic_launcher_background.xml" value="0.1825" />
         <entry key="..\:/Users/DELL/AndroidStudioProjects/HIFICONVO/app/src/main/res/drawable/message_box_background.xml" value="0.158" />
         <entry key="..\:/Users/DELL/AndroidStudioProjects/HIFICONVO/app/src/main/res/layout/activity_chat.xml" value="0.2" />
-        <entry key="..\:/Users/DELL/AndroidStudioProjects/HIFICONVO/app/src/main/res/layout/activity_login.xml" value="0.2" />
+        <entry key="..\:/Users/DELL/AndroidStudioProjects/HIFICONVO/app/src/main/res/layout/activity_login.xml" value="0.1" />
         <entry key="..\:/Users/DELL/AndroidStudioProjects/HIFICONVO/app/src/main/res/layout/activity_main.xml" value="0.19791666666666666" />
         <entry key="..\:/Users/DELL/AndroidStudioProjects/HIFICONVO/app/src/main/res/layout/activity_sign_up.xml" value="0.19791666666666666" />
         <entry key="..\:/Users/DELL/AndroidStudioProjects/HIFICONVO/app/src/main/res/layout/receive.xml" value="0.19791666666666666" />
